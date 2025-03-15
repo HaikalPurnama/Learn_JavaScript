@@ -10,7 +10,8 @@
   4. Menghapus Kemunculan Pertama String Pencarian
   5. Memeriksa Palindrom
 
-## 1. Konversi Fahrenheit ke Celsius
+
+# 1. Konversi Fahrenheit ke Celsius
 
 Program ini menerima suhu dalam Fahrenheit sebagai input dan mengonversinya ke Celsius menggunakan rumus
 
@@ -40,7 +41,8 @@ Hasil perhitungan langsung dikembalikan oleh fungsi.
 
 > 50 derajat Fahrenheit sama dengan 10 derajat Celsius
 
-## 2. Konversi Kilometer ke Centimeter
+
+# 2. Konversi Kilometer ke Centimeter
 
 Program ini mengonversi antara centimeter dan kilometer berdasarkan input satuan yang diberikan
 
@@ -80,6 +82,7 @@ Jika ``unit`` bukan 'cm' atau 'km', fungsi mengembalikan pesan "Satuan tidak val
 > 1 km
 > 100000 cm
 
+
 # 3. Menentukan Bilangan Genap atau Ganjil
 
 Program ini menentukan apakah suatu bilangan bulat adalah genap atau ganjil.
@@ -116,7 +119,8 @@ Jika sisa pembagian bukan 0, maka ``n`` adalah ``ganjil`` dan fungsi mengembalik
 >
 > 10001 adalah bilangan ganjil
 
-## 4 Menghapus Kemunculan Pertama String Pencarian
+
+# 4. Menghapus Kemunculan Pertama String Pencarian
 
 Program ini menghapus kemunculan pertama dari string pencarian dalam string yang diberikan.
 
@@ -156,7 +160,8 @@ Jika ``searchStr`` tidak ditemukan, fungsi mengembalikan ``str`` asli.
 >
 > String setelah penghapusan: Hal Purnama
 
-## 5. Memeriksa Palindrom
+
+# 5. Memeriksa Palindrom
 
 Program ini memeriksa apakah suatu string adalah palindrom (dibaca sama dari depan dan belakang).
 
