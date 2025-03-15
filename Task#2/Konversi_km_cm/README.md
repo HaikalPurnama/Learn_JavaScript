@@ -1,27 +1,39 @@
-# Konversi Fahrenheit ke Celsius
+# Konversi Kilometer ke Centimeter
 
-Program ini menerima suhu dalam Fahrenheit sebagai input dan mengonversinya ke Celsius menggunakan rumus
-
-> Celcius = (fahrenheit - 32) * 5 / 9;
+Program ini mengonversi antara centimeter dan kilometer berdasarkan input satuan yang diberikan
 
 ## Implementasi Code
 
 ```
+function convertDistance(value, unit) {
+    if (unit === 'cm') {
+        return `${value / 100000} km`;
+    } else if (unit === 'km') {
+        return `${value * 100000} cm`;
+    }else {
+        return "unit tidak valid";
+    }
+}
 
- let fahrenheit = 50;
-  let celsius = fahrenheitToCelsius(fahrenheit);
-  console.log(`${fahrenheit} derajat Fahrenheit sama dengan ${celsius} derajat Celsius`);
 
-  function fahrenheitToCelsius(fahrenheit) {
-    return (fahrenheit - 32) * 5 / 9;
+//Implementasi
+console.log(convertDistance(100000, 'cm'));
+console.log(convertDistance(1, 'km'));
 ```
 
 ## Penjelasan
 
-Fungsi ``fahrenheitToCelsius`` menerima satu parameter, yaitu ``fahrenheit``, yang merupakan suhu dalam derajat Fahrenheit.
-Fungsi ini menggunakan rumus konversi ``(Fahrenheit - 32) * 5 / 9`` untuk menghitung suhu dalam derajat Celsius.
-Hasil perhitungan langsung dikembalikan oleh fungsi.
+Fungsi ``convertCmKm`` menerima dua parameter: ``value`` (nilai yang akan dikonversi) dan ``unit`` (satuan awal, 'cm' atau 'km').
+
+Fungsi menggunakan percabangan ``if-else if-else`` untuk menentukan jenis konversi yang akan dilakukan.
+
+Jika ``unit`` adalah 'cm', maka nilai dibagi 100000 untuk mendapatkan kilometer.
+
+Jika ``unit`` adalah 'km', maka nilai dikalikan 100000 untuk mendapatkan centimeter.
+
+Jika ``unit`` bukan 'cm' atau 'km', fungsi mengembalikan pesan "Satuan tidak valid".
 
 ## Output
 
-> 50 derajat Fahrenheit sama dengan 10 derajat Celsius
+> 1 km
+> 100000 cm
