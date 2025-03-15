@@ -6,5 +6,5 @@ function isEven(n){
     }
 }
 
-console.log(isEven(1000));
-console.log(isEven(10001)); 
+console.log(`10000 adalah bilangan ${isEven(1000)}`);
+console.log(`10001 adalah bilangan ${isEven(1001)}`); 
