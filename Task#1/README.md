@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Task #1 - JavaScript
 
 ![App Screenshot]
