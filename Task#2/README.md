@@ -10,7 +10,6 @@
   4. Menghapus Kemunculan Pertama String Pencarian
   5. Memeriksa Palindrom
 
-
 # 1. Konversi Fahrenheit ke Celsius
 
 Program ini menerima suhu dalam Fahrenheit sebagai input dan mengonversinya ke Celsius menggunakan rumus
