@@ -31,7 +31,9 @@ Program ini menerima suhu dalam Fahrenheit sebagai input dan mengonversinya ke C
 ## Penjelasan
 
 Fungsi ``fahrenheitToCelsius`` menerima satu parameter, yaitu ``fahrenheit``, yang merupakan suhu dalam derajat Fahrenheit.
+
 Fungsi ini menggunakan rumus konversi ``(Fahrenheit - 32) * 5 / 9`` untuk menghitung suhu dalam derajat Celsius.
+
 Hasil perhitungan langsung dikembalikan oleh fungsi.
 
 ## Output
@@ -176,11 +178,14 @@ console.log(`'${str}' palindrome: ${result}`);
 
 ```
 Fungsi ``isPalindrome`` menerima satu parameter yaitu ``str``, yang merupakan string yang akan diperiksa.
+
 Fungsi mengubah ``str`` menjadi huruf kecil menggunakan ``toLowerCase()`` untuk mengabaikan perbedaan huruf besar/kecil.
 
 Fungsi membalikkan ``str`` menggunakan ``split('').reverse().join('').``
 
-Fungsi membandingkan ``str`` asli dengan string yang dibalik. Jika sama, maka ``str`` adalah palindrom dan fungsi mengembalikan ``true``. Jika tidak sama, fungsi mengembalikan ``false``.
+Fungsi membandingkan ``str`` asli dengan string yang dibalik. Jika sama, maka ``str`` adalah palindrom dan fungsi mengembalikan ``true``. 
+
+Jika tidak sama, fungsi mengembalikan ``false``.
 
 ## Output
 
